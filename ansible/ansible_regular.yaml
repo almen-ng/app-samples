@@ -9,3 +9,4 @@ metadata:
 spec:
   job_template_name: Demo Job Template
   tower_auth_secret: toweraccess
+  inventory: Demo Inventory
