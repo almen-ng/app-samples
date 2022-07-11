@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: pause-deploy
+  name: helloworld-perf-deploy
   labels:
     app: pause-app
 spec:
@@ -15,7 +15,7 @@ spec:
         app: pause-app
     spec:
       containers:
-      - name: pause-container
+      - name: container
         image: "gcr.io/google_containers/pause-amd64:3.0"
         imagePullPolicy: IfNotPresent
         ports:

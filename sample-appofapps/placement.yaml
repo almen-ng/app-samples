@@ -9,3 +9,4 @@ spec:
   clusterSelector:
     matchLabels:
       name: local-cluster
+
